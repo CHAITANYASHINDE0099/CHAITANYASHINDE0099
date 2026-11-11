@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+  <title id="title">Chaitanya Shinde</title>
+  <desc id="description">AI and Data Science Engineering. A cyan and lavender CS monogram surrounded by orbits on a navy grid.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#0b1426"/>
+      <stop offset=".55" stop-color="#101e37"/>
+      <stop offset="1" stop-color="#201b42"/>
+    </linearGradient>
+    <radialGradient id="cyan-glow">
+      <stop stop-color="#2e8cb7" stop-opacity=".44"/>
+      <stop offset="1" stop-color="#2e8cb7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet-glow">
+      <stop stop-color="#7656dc" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#7656dc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent">
+      <stop stop-color="#7ce8ff"/>
+      <stop offset="1" stop-color="#c5aeff"/>
+    </linearGradient>
+    <linearGradient id="monogram-background" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#1a3553"/>
+      <stop offset="1" stop-color="#222044"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#b5d3ff" stroke-opacity=".10"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="340" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#background)"/>
+    <ellipse cx="880" cy="139" rx="392" ry="245" fill="url(#cyan-glow)"/>
+    <ellipse cx="1090" cy="319" rx="345" ry="225" fill="url(#violet-glow)"/>
+    <path d="M626 0h574v340H626z" fill="url(#grid)"/>
+    <path d="M657 65h94l32 33m220 157 28 28h101" fill="none" stroke="#8eb9e9" stroke-opacity=".27"/>
+    <circle cx="657" cy="65" r="3" fill="#7ce8ff" fill-opacity=".78"/>
+    <circle cx="1132" cy="283" r="3" fill="#c5aeff" fill-opacity=".78"/>
+    <g transform="translate(919 170)">
+      <circle r="127" fill="none" stroke="#b5caff" stroke-opacity=".19" stroke-dasharray="2 7"/>
+      <circle r="106" fill="none" stroke="#b5caff" stroke-opacity=".17"/>
+      <ellipse rx="160" ry="64" transform="rotate(-26)" fill="none" stroke="url(#accent)" stroke-opacity=".55" stroke-width="1.5"/>
+      <ellipse rx="160" ry="64" transform="rotate(26)" fill="none" stroke="url(#accent)" stroke-opacity=".42" stroke-width="1.5"/>
+      <circle cx="-125" cy="73" r="6" fill="#7ce8ff"/>
+      <circle cx="-125" cy="73" r="12" fill="none" stroke="#7ce8ff" stroke-opacity=".37"/>
+      <circle cx="114" cy="-80" r="5" fill="#c5aeff"/>
+      <circle cx="114" cy="-80" r="11" fill="none" stroke="#c5aeff" stroke-opacity=".37"/>
+      <circle cx="135" cy="65" r="3.5" fill="#c5aeff" fill-opacity=".84"/>
+      <circle cx="-87" cy="-67" r="3.5" fill="#7ce8ff" fill-opacity=".84"/>
+      <circle r="77" fill="url(#monogram-background)" stroke="url(#accent)" stroke-opacity=".75" stroke-width="1.5"/>
+      <circle r="67" fill="none" stroke="#c8e4ff" stroke-opacity=".14"/>
+      <path d="M-10-28a31 31 0 1 0 0 56" fill="none" stroke="#7ce8ff" stroke-width="8" stroke-linecap="round"/>
+      <path d="M44-27H26C13-27 7-21 7-13S15-1 27 1s19 6 19 14-6 13-18 13H9" fill="none" stroke="#c5aeff" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <circle cx="68" cy="69" r="4" fill="#7ce8ff"/>
+    <text x="84" y="76" fill="#b5d5f8" font-family="monospace" font-size="19" font-weight="600" letter-spacing="2.3">AI &amp; DATA SCIENCE ENGINEERING</text>
+    <g font-family="system-ui, Segoe UI, Arial, sans-serif" font-size="74" font-weight="750" letter-spacing="-3">
+      <text x="63" y="170" fill="#f5f8ff">Chaitanya</text>
+      <text x="63" y="246" fill="url(#accent)">Shinde</text>
+    </g>
+    <path d="M67 285h204" stroke="#b5caff" stroke-opacity=".28" stroke-linecap="round"/>
+    <path d="M67 285h58" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="339" rx="23.5" fill="none" stroke="#91b0e8" stroke-opacity=".28"/>
+</svg>
